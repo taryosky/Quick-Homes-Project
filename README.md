@@ -1,0 +1,2 @@
+# Quick-Homes-Project
+QuickHome is an online real estate platform (website and  mobile app), where real estate agents get to upload their available properties and  apartment that want to be rented out or sold out and client will have to visit the  site to find more available (have more choice to make) and contact the agent to  which client is interested in any of the agent’s apartment. QuickHome platform is a professional website that will bridge the gap between  clients and agents. Make the clients find more available apartments and makes  voluntary choice.
