@@ -1,0 +1,73 @@
+<form class="w3-row w3-container">
+    <div class="w3-col m1 l2">&nbsp;</div>
+    <div class="w3-col m10 l8 w3-padding-24" style="background-color: rgba(0,0,10,.5); color: white;">
+        <h2 class="w3-center" style="margin-top: 0px; padding-top: 0px;">Find Your Home</h2>
+        <div class="w3-row w3-container">
+            <div class="w3-col m6 l6">
+                <div class="w3-cell-row">
+                    <div class="w3-cell padding-7">
+                        <label>Location</label><br>
+                        <input type="text" class="input" name="location" style="display: inline-block;" placeholder="Enter Location" id="location" />
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col m6 l6">
+                <div class="w3-cell-row">
+                    <div class="w3-cell padding-7">
+                        <label>Category</label><br>
+                        <select name="category" class="input">
+                            <option>Any</option>
+                            <option value="sale">For Sale</option>
+                            <option value="rent">For Rent</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w3-row">
+            <div class="w3-col m6 l6 w3-container">
+                <div class="w3-cell-row">
+                    <div class="w3-cell padding-7">
+                        <label>Min. Price</label><br>
+                        <select name="minPrice" class="input">
+                            <option>Any</option>
+                            <option>1000</option>
+                        </select>
+                    </div>
+                    <div class="w3-cell padding-7">
+                        <label>Max. Price</label><br>
+                        <select name="maxPrice" class="input">
+                            <option value="any">Any</option>
+                            <option value="1000">1000</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col m6 l6 w3-container">
+                <div class="w3-cell-row">
+                    <div class="w3-cell padding-7">
+                        <label>Bedrooms</label><br>
+                        <select name="bedrooms" class="input">
+                            <option>Any</option>
+                            <option>1</option>
+                        </select>
+                    </div>
+                    <div class="w3-cell padding-7">
+                        <label>Bathrooms</label><br>
+                        <select name="bathrooms" class="input">
+                            <option value="any">Any</option>
+                            <option value="1000">1</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-row w3-container">
+                <div class="w3-col m6 l6">&nbsp;</div>
+                <div class="w3-col m6 l6 padding-7"><br>
+                    <input type="submit" value="Find" class="w3-button w3-red" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="w3-col m1 l2">&nbsp;</div>
+</form>

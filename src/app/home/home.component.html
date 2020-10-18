@@ -1,0 +1,107 @@
+<app-home-banner class="w3-display-container"></app-home-banner>
+
+<div class="w3-row" style="">
+    <div class="w3-row w3-padding-24">
+        <div class="w3-col m1 l1">&nbsp;</div>
+        <div id="ceo-info" class="w3-col m10 l10">
+            <div class="w3-row w3-panel">
+                <div class="w3-col m4 l3 w3-center">
+                    <img src="../../assets/images/team1.jpg" class="w3-circle" width="150px" height="150px" />
+                    <h4 class="margin-0" style="margin: 0px;">John Doe</h4>
+                    <h5 style="margin: 0px;">CEO</h5>
+                    <span>F Twitter Insta</span>
+                </div>
+                <div class="w3-col m8 l9">
+                    <h2 class="w3-container">Welcome Note.</h2>
+                    <div class="w3-leftbar w3-padding">
+                        <span style="font-size:50px;line-height:0.6em;opacity:0.2">&#10077;</span>
+                        Qucik Home is an online ral extate platform (website and mobile app), where reaelestate agents ge to upload their available properties and apartments that the want to be rented out and client will have to visit the site to find more available choice and contact the agent to which he or she is interested in any of the agents's apartment.
+                        Qucik Home is an online ral extate platform (website and mobile app), where reaelestate agents ge to upload their available properties and apartments that the want to be rented out and client will have to visit the site to find more available choice and contact the agent to which he or she is interested in any of the agents's apartment.
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="w3-row lg-background w3-padding-24">
+        <div class="w3-col m1 l1">&nbsp;</div>
+        <div id="about" class="w3-col m10 l10">
+            <div class="w3-row w3-panel">
+                <div class="w3-col m8 l9">
+                    <h2>About Quick Homes</h2>
+                    Qucik Home is an online ral extate platform (website and mobile app), where reaelestate agents ge to upload their available properties and apartments that the want to be rented out and client will have to visit the site to find more available choice and contact the agent to which he or she is interested in any of the agents's apartment.
+                    Qucik Home is an online ral extate platform (website and mobile app), where reaelestate agents ge to upload their available properties<span class="w3-hide-large">....</span> <span class="w3-hide-medium">and apartments that the want to be rented out and client will have to visit the site to find more available choice and contact the agent to which he or she is interested in any of the agents's apartment.
+                    Qucik Home is an online ral extate platform (website and mobile app), where reaelestate agents ge to upload their available properties and apartments that the want to be rented out and client will have to visit the site to find more available choice and contact the agent to which he or she is interested in any of the agents's apartment.</span>
+                    &nbsp;<a href="#about" class="w3-text-blue">Read More About Us</a>
+                </div>
+                <div class="w3-col m4 l3 w3-center">
+                    <img src="../../assets/images/banner1 (3).jpg" width="150px" height="150px" class="w3-circle" />
+                    <h3 class="w3">Locate Agents</h3>
+                    <a href="#" class="w3-blue w3-button">Property Agents</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="w3-row w3-padding-24">
+        <div class="w3-col m1 l1">&nbsp;</div>
+        <div class="w3-col m10 l10">
+            <div id="featured-listing" class="" style="">
+                <h3 class="" style="">Featured Homes</h3>
+                <div class="w3-row">
+                    <div class="w3-col m12 l6">
+                        <app-min-property-display></app-min-property-display>
+                    </div>
+                    <div class="w3-col m12 l6">
+                        <app-min-property-display></app-min-property-display>
+                    </div>
+                </div>
+                <div class="w3-row">
+                    <div class="w3-col m12 l6">
+                        <app-min-property-display></app-min-property-display>
+                    </div>
+                    <div class="w3-col m12 l6">
+                        <app-min-property-display></app-min-property-display>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-padding-24">
+        <div class="w3-col m1 l1">&nbsp;</div>
+        <div class="w3-col m10 10">
+            <div class="w3-row">
+                <div class="w3-col m12 l12">
+                    <h4 class="" style="text-align: center">Find You Home In The Listed Areas</h4>
+                </div>
+            </div>
+            <div class="w3-row">
+                <div class="w3-col m3 l3" *ngFor="let location of locations; index as i;">
+                    <p class="w3-center bold" style="margin-bottom: 0px;">{{location.name}}</p>
+                    <div class="w3-cell-row">
+                        <div class="w3-cell">
+                            <ul class="no-list-style">
+                                <li *ngFor="let village of location.villages; even as isEven;"><a *ngIf="isEven">{{village}}</a></li>
+                            </ul>
+                        </div>
+                        <div class="w3-cell">
+                            <ul class="no-list-style">
+                                <li *ngFor="let villa of location.villages; odd as isOdd;" ><a *ngIf="isOdd">{{villa}}</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="w3-row w3-red w3-padding">
+        <div class="w3-col m1 l1">&nbsp;</div>
+        <div class="w3-col m7 l8">
+            <h2 class="w3-xlarge">You can list your property with us by registering!</h2>
+        </div>
+        <div class="w3-col m3 l2" style="vertical-align:middle;">
+            <h3><a href="#" class="w3-button w3-blue w3-bar-item w3-right w3-large">Register</a></h3>
+        </div>
+    </div>
+</div> 

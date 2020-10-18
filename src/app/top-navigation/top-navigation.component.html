@@ -1,0 +1,27 @@
+<div id="navbar" class="w3-container w3-hide-small w3-hide-medium w3-bar w3-white w3-card-4 w3-text-red" #navbar (window:scroll)="scrollFunction(navbar)" style="position: relative;">
+    <a href="#faqs" class="w3-bar-item w3-button w3-right w3-padding-24">FAQs</a>
+    <a href="#" class="w3-bar-item w3-button">Logo</a>
+    <a href="#home" class="w3-bar-item w3-button w3-right w3-padding-24">Register/Login</a>
+    <a href="#home" class="w3-bar-item w3-button w3-right w3-padding-24">About Us</a>
+    <a href="#home" class="w3-bar-item w3-button w3-right w3-padding-24">Requests</a>
+    <a href="#home" class="w3-bar-item w3-button w3-right w3-padding-24">Agents</a>
+    <a href="#home" class="w3-bar-item w3-button w3-right w3-padding-24">Apartments</a>
+    <a href="#home" class="w3-bar-item w3-button w3-right w3-padding-24">Home</a>
+</div>
+<div style="width: 100%; position: fixed; z-index: 300;">
+    <header class="w3-bar w3-card w3-white w3-hide-large">
+        <a href="#" class="w3-bar-item w3-button">Logo</a>
+        <button class="w3-bar-item w3-button w3-right w3-xxlarge" (click)="toggleNav(mobileNav, icon)" #icon>&#9776;</button>
+    </header>   
+    <div class="w3-bar-block w3-card w3-right w3-white w3-hide-large" (click)="toggleNav(mobileNav, icon)" style="width: 40%; display: none; position: relative; z-index: 2000;" id="" #mobileNav>
+        <a href="#home" class="w3-bar-item w3-button w3-padding-16">Home</a>
+        <a href="#home" class="w3-bar-item w3-button w3-padding-16">For Sale</a>
+        <a href="#home" class="w3-bar-item w3-button w3-padding-16">For Rent</a>
+        <a href="#home" class="w3-bar-item w3-button w3-padding-16">Agents</a>
+        <a href="#home" class="w3-bar-item w3-button w3-padding-16">Request</a>
+        <a href="#home" class="w3-bar-item w3-button w3-padding-16">About Us</a>
+        <a href="#home" class="w3-bar-item w3-button w3-padding-16">Register/Login</a>
+        <a href="#home" class="w3-bar-item w3-button w3-padding-16">Faqs</a>
+    </div>
+    
+</div>

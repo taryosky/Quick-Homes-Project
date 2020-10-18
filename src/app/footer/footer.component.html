@@ -1,0 +1,46 @@
+<div id="footer" class="w3-container">
+    <div class="w3-row w3-padding-24">
+        <div class="w3-col m1 l1">&nbsp; </div>
+        <div class="w3-col m2 l2">
+            <span class="w3-xxlarge">Logo</span><br>
+            Head office address
+        </div>
+        <div class="w3-col m2 l2">
+            <p class="bold w3-text-white">Contact Us</p>
+            <fa-icon [icon]="['fas', 'phone']"></fa-icon> +2349022112232 <br>
+            <fa-icon [icon]="['fab', 'whatsapp']"></fa-icon> +2348188998899 <br>
+            <fa-icon [icon]="['fas', 'envelope']"></fa-icon> someone@example.com<br>
+            <p class="bold w3-text-white">Connect With Us</p>
+            <a href="#" class="w3-button"><fa-icon [icon]="['fab', 'facebook']"></fa-icon></a>
+            <a href="#" class="w3-button"><fa-icon [icon]="['fab', 'instagram']"></fa-icon></a>
+            <a href="#" class="w3-button"><fa-icon [icon]="['fab', 'twitter']"></fa-icon></a>
+            <a href="#" class="w3-button"><fa-icon [icon]="['fab', 'linkedin']"></fa-icon></a>
+            
+        </div>
+        <div class="w3-col m2 l2">
+            <p class="bold w3-text-white">Quick Links</p>
+            <ul class="list no-list-style">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">For Rent</a></li>
+                <li><a href="#">For Sale</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Agents</a></li>
+                <li><a href="#">Faqs</a></li>
+                <li><a href="#">Register/Login</a></li>
+            </ul>
+        </div>
+        <div class="w3-col m2 l2">
+            <p class="w3-text-white bold">Popular Areas</p>
+            <ul class="list no-list-style">
+                <li *ngFor="let area of popularAreas"><a href="#">{{area}}</a></li>
+            </ul>
+        </div>
+        <div class="w3-col m2 l2">
+            <p class="w3-text-white bold">Quote</p>
+            <p class="w3">
+                Any quote about houses and rents and purchase
+            </p>
+        </div>
+        <div class="w3-col m1 l1">&nbsp; </div>
+    </div>
+</div>

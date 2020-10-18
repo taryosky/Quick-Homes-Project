@@ -1,0 +1,31 @@
+<div class="w3-card-2 w3-margin w3-border" style="padding: 5px;">
+    <div class="w3-row">
+        <div class="w3-col m12 l5">
+            <img src="../../assets/images/paris.jpg" width="100%;" />
+        </div>
+        <div class="w3-col m12 l7 w3-medium" style="padding-left: 10px; color: #595959">
+            <h6 class="bold" style="padding: 0px; margin: 0px;">{{property.getTitle()}}</h6>
+            <div><fa-icon icon="map-marker"></fa-icon> {{property.getLocation()}}</div>
+            <div class="w3-text-blue w3-large bold">N120,000,000</div>
+            <div>
+                {{property.getDescription()}}
+            </div>
+        </div>
+    </div>
+    <div class="w3-padding-16 w3-medium">
+        <div class="w3-cell-row">
+            <div class="w3-cell">
+                <fa-icon icon="bed"></fa-icon> {{property.getRooms()}} <span class="w3-hide-small">Bedroom</span>
+            </div>
+            <div class="w3-cell">
+                <fa-icon icon="bath"></fa-icon> {{property.getBathroom()}} <span class="w3-hide-small">Bathroom</span>
+            </div>
+            <div class="w3-cell">
+                <fa-icon icon="toilet"></fa-icon> {{property.getToilet()}} <span class="w3-hide-small">Toilet</span>
+            </div>
+            <div class="w3-cell">
+                <fa-icon icon="car"></fa-icon> {{property.getToilet()}} <span class="w3-hide-small">Parking Space</span>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+app-home-banner{
+    background-image: url(../../assets/images/banner1.jpg);
+    background-position: center;
+    display: block;
+    height: 700px;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+#area-listing{
+    list-style-type: none;
+    list-style-position: outside;
+}

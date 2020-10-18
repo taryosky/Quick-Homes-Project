@@ -1,1 +1,56 @@
 /* You can add global styles to this file, and also import other style files */
+@import "./assets/styles/w3css/w3.css";
+body {
+    font-family: "P24-SourceSans",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    /* line-height: 22px; */
+    color: #555555;
+    background-color: #f6f6f6;
+}
+
+a{
+    text-decoration: none;
+}
+
+.lg-background{
+    background-color: #f0f0f0;
+    color: #555555;
+}
+
+.llg-background{
+    background-color: #f1f1f1;
+    color: #9e9e9e;
+}
+
+.product-item{
+    display: inline-block;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+#footer{
+    background-color: #374049;
+    color: rgba(225,225, 225, .7);
+}
+
+ul.list{
+    padding-left: 0px;
+}
+
+.no-list-style{
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+.padding-7{
+    padding: 5px;
+}
+
+.input{
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
